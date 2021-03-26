@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.netflix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/world_cinema"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/world_cinema"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Netflix">
+        <activity android:name=".FilmScreen"></activity>
+        <activity android:name=".MovieScreen" />
+        <activity
+            android:name=".MainScreen"
+            android:label="@string/title_activity_main_screen" />
+        <activity android:name=".LogUpScreen" />
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".LoadScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

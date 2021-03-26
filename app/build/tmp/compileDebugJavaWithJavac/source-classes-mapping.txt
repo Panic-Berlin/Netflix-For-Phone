@@ -1,0 +1,31 @@
+com/example/netflix/LoadScreen.java
+ com.example.netflix.LoadScreen
+ com.example.netflix.LoadScreen$MyTimer
+com/example/netflix/ui/notifications/NotificationsViewModel.java
+ com.example.netflix.ui.notifications.NotificationsViewModel
+com/example/netflix/ui/notifications/NotificationsFragment.java
+ com.example.netflix.ui.notifications.NotificationsFragment
+com/example/netflix/LoginScreen.java
+ com.example.netflix.LoginScreen
+com/example/netflix/LogUpScreen.java
+ com.example.netflix.LogUpScreen
+com/example/netflix/FilmScreen.java
+ com.example.netflix.FilmScreen
+com/example/netflix/MainScreen.java
+ com.example.netflix.MainScreen
+com/example/netflix/ui/home/HomeFragment.java
+ com.example.netflix.ui.home.HomeFragment
+com/example/netflix/ui/dashboard/DashboardViewModel.java
+ com.example.netflix.ui.dashboard.DashboardViewModel
+com/example/netflix/MovieScreen.java
+ com.example.netflix.MovieScreen
+com/example/netflix/ui/home/HomeViewModel.java
+ com.example.netflix.ui.home.HomeViewModel
+com/example/netflix/ui/dashboard/DashboardFragment.java
+ com.example.netflix.ui.dashboard.DashboardFragment
+com/example/netflix/ui/profile/ProfileViewModel.java
+ com.example.netflix.ui.profile.ProfileViewModel
+com/example/netflix/ui/profile/ProfileFragment.java
+ com.example.netflix.ui.profile.ProfileFragment
+com/example/netflix/BuildConfig.java
+ com.example.netflix.BuildConfig

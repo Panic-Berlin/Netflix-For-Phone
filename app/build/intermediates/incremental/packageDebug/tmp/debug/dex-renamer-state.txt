@@ -1,0 +1,4 @@
+#Thu Mar 25 12:38:03 MSK 2021
+base.0=C\:\\Users\\36\\Desktop\\Netflix\\Netflix for phone\\Netflix\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

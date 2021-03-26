@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Netflix</string>
+    <string name="worldcinema">WorldCinema</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="copy_password">Повторите пароль</string>
+    <string name="account_equals">У меня уже есть аккаунт</string>
+    <string name="in_progress">В разработке</string>
+    <string name="incorrect_login_or_password">Неправильный логин или пароль</string>
+    <string name="all_fields_must_be_filled">Все поля должны быть заполнены</string>
+    <string name="password_mismatch">Пароли не совпадают</string>
+    <string name="look">Смотреть</string>
+    <string name="title_activity_main_screen">MainActivity</string>
+    <string name="title_home">Главная</string>
+    <string name="title_compilation">Подборка</string>
+    <string name="title_favorites">Избранное</string>
+    <string name="title_profile">Профиль</string>
+    <string name="description">Брейкбиллс – престижный университет для молодых магов, в котором они постигают тайные знания, предаются диким студенческим развлечениям, влюбляются, занимаются сексом и находят для себя тысячи разнообразных проблем. Одним словом, показанный в The Magicians мир магов – это типичный мирок молодежных комедий категории B. С несмешными шутками по поводу секса в каждой второй фразе; нелепыми ситуациями, в которые попадают герои; чрезмерным употреблением алкоголя и наркотиков без всяких негативных последствий; постоянной угрозой отчисления за те или иные проступки… Ах да, здесь еще есть и магия. </string>
+</resources>

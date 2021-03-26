@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/main_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="50dp">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <!-- Начало главного скрола-->
+
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="@drawable/the_magicians_preview">
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/back"
+                        android:layout_marginLeft="10dp" />
+                    <TextView
+                        android:layout_marginStart="25dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="24sp"
+                        android:textColor="@color/white"
+                        android:text="The Magicians"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="25dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="18+"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="30dp" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_gravity="center"
+                    android:layout_marginTop="180dp"
+                    android:onClick="onMovieClick"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/button_red_background"
+                    android:text="@string/look"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    tools:ignore="OnClick" />
+            </LinearLayout>
+
+
+            <com.google.android.material.navigation.NavigationView
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/nav_home_color"
+                app:menu="@menu/home_nav_menu">
+
+
+                    <TextView
+                        android:layout_marginEnd="140dp"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:text="Для вас"
+                        android:layout_marginRight="140dp" />
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:text="Новинки"/>
+                    <TextView
+                        android:layout_marginStart="135dp"
+                        android:textAlignment="center"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:text="В тренде"
+                        android:layout_marginLeft="135dp" />
+
+                <LinearLayout
+                    android:layout_gravity="bottom"
+                    android:layout_width="130dp"
+                    android:layout_height="8dp"
+                    android:background="@color/red"/>
+
+            </com.google.android.material.navigation.NavigationView>
+
+
+
+            <!-- Начало афиши-->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <HorizontalScrollView
+                        android:layout_marginTop="5dp"
+                        android:scrollbars="none"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <!---->
+
+                            <LinearLayout
+                                android:layout_marginStart="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp">
+                                <ImageView
+                                    android:layout_width="90dp"
+                                    android:layout_height="140dp"
+                                    android:src="@drawable/sex_education_afisha"
+                                    android:layout_marginLeft="15dp" />
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:text="Половое воспитание"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+                            </LinearLayout>
+
+                            <!---->
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_width="90dp"
+                                    android:layout_height="140dp"
+                                    android:src="@drawable/lucifer_afisha"
+                                    android:layout_marginLeft="15dp" />
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:text="Люцифер"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+                            </LinearLayout>
+
+                            <!---->
+
+                            <LinearLayout
+
+                                android:orientation="vertical"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="90dp"
+                                    android:layout_height="140dp"
+                                    android:src="@drawable/got_afisha"
+                                    android:layout_marginLeft="15dp" />
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:text="Игры престолов"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_width="90dp"
+                                    android:layout_height="140dp"
+                                    android:src="@drawable/the_magicians_afisha"
+                                    android:layout_marginLeft="15dp" />
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:text="Волшебники"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="90dp"
+                                    android:layout_height="140dp"
+                                    android:src="@drawable/altered_carbon_afisha"
+                                    android:layout_marginLeft="15dp" />
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:text="Измененный углерод"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="90dp"
+                                    android:layout_height="140dp"
+                                    android:src="@drawable/money_heist_afisha"
+                                    android:layout_marginLeft="15dp" />
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:text="Бумажный дом"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:textAlignment="center"
+                                    android:gravity="center_horizontal" />
+                            </LinearLayout>
+
+                            <!---->
+
+                            <!---->
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+                <!-- конец афиши -->
+                </LinearLayout>
+
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Вы смотрели"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:onClick="onMovieClick"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/altered_carbon_preview"
+                android:layout_marginBottom="10dp"
+                tools:ignore="OnClick">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/play_red"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="95dp"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Измененный углерод"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+
+
+            <!-- Конец главного скрола-->
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
